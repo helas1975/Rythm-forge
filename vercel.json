@@ -1,0 +1,14 @@
+cd /home/workdir/artifacts
+
+git init
+git add .
+git commit -m "Launch RhythmForge MVP with PWA support"
+
+# Create repo on GitHub first (go to github.com → New Repository)
+# Name: rhythm-forge (or whatever you like)
+# Make it Public
+# Do NOT initialize with README
+
+git branch -M main
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/rhythm-forge.git
+git push -u origin main
